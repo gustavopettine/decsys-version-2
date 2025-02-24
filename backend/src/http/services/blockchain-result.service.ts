@@ -96,7 +96,7 @@ export class BlockchainResultService {
 
       if (status !== 'VALIDATED' && status !== 'PENDING') {
         return {
-          walletAddress: addressFromChain,
+          walletAddress: '',
           status,
           cpf: '',
           base64Image: '',
